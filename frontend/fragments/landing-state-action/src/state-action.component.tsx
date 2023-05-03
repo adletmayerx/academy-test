@@ -24,7 +24,7 @@ const StateAction: FC = () => {
       <Column justifyContent='center'>
         <Layout>
           <Text fontWeight='medium' fontSize='big' ref={node}>
-            {getRandomizedColorMessage<number>('I have randomized color')}
+            {getRandomizedColorMessage<number>(1)}
           </Text>
         </Layout>
         <Layout flexBasis={16} />

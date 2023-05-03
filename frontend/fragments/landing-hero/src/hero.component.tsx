@@ -21,7 +21,7 @@ const Hero: FC = () => (
         </Text>
       </Layout>
     </Column>
-  </Layout>
+  </Box>
 )
 
 export { Hero }
